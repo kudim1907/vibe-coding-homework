@@ -1,28 +1,18 @@
-# AI Powered Todo List App (Vibe Coding Assignment)
+# Vibecoding Project - Dockerization
 
-## Project Screenshot/Demo
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/81a12748-b23c-4c56-a1f0-95795a950b28" />
+This project is now dockerized for the software development homework. 
 
+## How to Run with Docker
 
-## Description
-This project is a functional, responsive React-based Todo List application developed using **Bolt.new** as part of the "Vibe Coding" homework assignment. It demonstrates the capabilities of AI-powered code generation by creating a complex application from a single natural language prompt.
+1. **Build the image:**
+   docker build -t vibecoding-app .
 
-## Features
-* Add and Delete Tasks
-* Mark tasks as Completed (Strikethrough)
-* Filter tasks by status (All, Active, Completed)
-* **LocalStorage Persistence:** Data is saved even if you close the browser.
-* Responsive Design with Tailwind CSS and Dark Mode.
+2. **Run the container:**
+   docker run -p 3000:3000 vibecoding-app
 
-## Technologies Used
-* React
-* Tailwind CSS
-* **Vibe Coding Tool Used: Bolt.new**
-* Vite
+3. **Open in browser:**
+   Go to http://localhost:3000
 
-## Setup & Run
-1.  Clone the repository to your local machine.
-2.  Navigate to the project directory in your terminal.
-3.  Run `npm install` to install dependencies.
-4.  Run `npm run dev` to start the local server.
-5.  Open the local host link provided in your browser.
+## Submission Details
+- **Student Name:** Arda Aslanbaba
+- **Assignment:** Dockerizing the previous project.
